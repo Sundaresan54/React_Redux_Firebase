@@ -2,9 +2,9 @@
 
 const initState = {
 projects: [
-   {id:'1', title:'Help ',content:"how to solve this "},
-   {id:'2', title:'Help ',content:"how to solve this "},
-   {id:'3', title:'Help ',content:"how to solve this "}
+//    {id:'1', title:'Help ',content:"how to solve this "},
+//    {id:'2', title:'Help ',content:"how to solve this "},
+//    {id:'3', title:'Help ',content:"how to solve this "}
 ]
 }
 

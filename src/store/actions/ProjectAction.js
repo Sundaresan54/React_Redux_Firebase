@@ -3,7 +3,7 @@
         const firestore = getFirestore();
         firestore.collection('projects').add({
             ...project,
-            authorFirstName:"xyz",
+            authorFirstName:"Abbay",
             autorLastName:"abc",
             authorId:123,
             createAt:new Date()
