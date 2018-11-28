@@ -16,7 +16,7 @@ class Signin extends Component {
 
     handleSumbit = (e) => {
         e.preventDefault();
-        console.log(this.state, "baby");
+    
     }
     render() {
         return (

@@ -4,7 +4,7 @@
         firestore.collection('projects').add({
             ...project,
             authorFirstName:"Abbay",
-            autorLastName:"abc",
+            authorLastName:"abc",
             authorId:123,
             createAt:new Date()
         }).then(()=>{

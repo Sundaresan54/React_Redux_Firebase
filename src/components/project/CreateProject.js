@@ -18,6 +18,11 @@ class CreateProject extends Component {
         e.preventDefault();
         this.props.createProject(this.state);
         
+        this.setState({
+            title:"",
+            conent:""
+        })
+        console.log(this.state.title);
     }
     render() {
         return (
