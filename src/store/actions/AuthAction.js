@@ -40,9 +40,10 @@ export const signUp = (newUser) => {
                     initial: newUser.firstName[0] + newUser.lastName[0]
                 }).then(()=>{
                     dispatch({type:"SIGNUP_SUCCESS"})
-                }).catch((err)=> {
-                    dispatch({type:"SIGNUP_ERR",err})
                 })
+        }).catch( (err) => {
+            console.log(err,"qwerty");
+            dispatch({type:"SIGNUP_ERR",err})
         })
     }
 
