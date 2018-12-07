@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { signOut } from '../../store/actions/AuthAction'
 
 const SigninLink = (props) => {
- 
+    
     return (
         <ul className="right">
         <li><NavLink to = '/createproject' >New Project</NavLink> </li>

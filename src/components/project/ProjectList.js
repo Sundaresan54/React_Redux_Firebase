@@ -3,6 +3,7 @@ import ProjectSummary from './ProjectSummary'
 import { Link } from 'react-router-dom'
 
 const ProjectList = ({projects}) => {
+    
     return (
         <div className="project=list">
         {projects && projects.map(project =>{
@@ -12,9 +13,6 @@ const ProjectList = ({projects}) => {
                 </Link>
             )
         })}
-        {/*         
-        <ProjectSummary />          
-        <ProjectSummary />           */}
         </div>
     )
 
